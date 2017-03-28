@@ -33,9 +33,11 @@ body * {
 
 .variants .bad {
     margin-left: 2%;
+    background: url(i/bad.png) no-repeat top center;
 }
 .variants .good {
     margin-right: 2%;
+    background: url(i/good.png) no-repeat top center
 }
 
 .variants .text {
