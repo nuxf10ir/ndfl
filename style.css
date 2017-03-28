@@ -1,0 +1,164 @@
+body * {
+    position: relative;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.question {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    color: #000000;
+    background: #ffffff;
+    font: bold 20px / 40px Georgia, "Times New Roman", Times, serif;
+    height: 40px;
+}
+
+.variants {
+    overflow: hidden;
+    min-height: 75px;
+    font: normal 14px / 20px Arial, Helvetica, sans-serif;
+}
+
+.variants .bad,
+.variants .good {
+    float: left;
+    width: 47%;
+}
+
+.variants .bad {
+    margin-left: 3%;
+}
+.variants .good {
+    margin-right: 3%;
+}
+
+.variants .text {
+    display: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    margin: 30px 0 0 0;
+
+}
+
+.variants.big .text {
+    min-height: 220px
+}
+
+.variants.middle .text {
+    min-height: 160px
+}
+
+
+
+.variants .text p {
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+.variants .text ul {
+    padding: 0 0 10px 20px;
+    margin: 0;
+}
+
+.variants .good .text {
+    background: #e1f1f1;
+}
+
+.variants .bad .text {
+    background: #f5e5e3;
+}
+
+.variants input:checked + .text {
+    display: block; !important;
+}
+
+.variants label {
+    display: block;
+    border-radius: 5px;
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    margin: 43px auto 0;
+    padding: 6px 0;
+    cursor: pointer;
+
+}
+
+.variants .good label {
+    background: #00a094;
+}
+
+.variants .bad label {
+    background: #b7274c;
+}
+
+.variants input {
+    display: none;
+}
+
+
+
+
+.district-info {
+    display: none;
+}
+
+.district-info__content h2 {
+    font: bold 24px / 26px Georgia, "Times New Roman", Times, serif;
+    margin: 15px 0 10px 0;
+}
+
+.district-info__content p,
+.district-info__story {
+    font: normal 16px / 22px Arial, Helvetica, sans-serif;
+    margin: 0 0 1em 0
+}
+
+.district-info__story {
+    display: block;
+    margin: 1em 0;
+}
+
+.district-info__story .author {
+    display: block;
+    padding: .5em 0 .3em;
+    border-bottom: 2px dotted #000000;
+    margin: 0 0 1em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.district-info__story .author b {
+    font: bold 16px / 22px Arial, Helvetica, sans-serif;
+}
+
+.district-info__story .story {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.district-popup {
+    position: absolute;
+    display: none;
+    padding: 10px 15px;
+    background: #ffffff;;
+    font: normal 14px / 22px Arial, Helvetica, sans-serif;
+    border: 1px solid #d5d5d5;
+}
+
+
+.testframe {
+    display: block;
+    max-width: 750px;
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #000000;
+
+    margin: 25px 0 25px 50px;
+}
