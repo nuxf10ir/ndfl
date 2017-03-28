@@ -51,11 +51,12 @@ body * {
 }
 
 .variants.big .text {
-    min-height: 220px;
+    min-height: 200px;
 }
 
+
 .variants.middle .text {
-    min-height: 160px
+    min-height: 150px
 }
 
 
