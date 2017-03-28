@@ -32,10 +32,10 @@ body * {
 }
 
 .variants .bad {
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .variants .good {
-    margin-right: 3%;
+    margin-right: 2%;
 }
 
 .variants .text {
@@ -44,11 +44,12 @@ body * {
     font-size: 16px;
     padding: 10px;
     margin: 30px 0 0 0;
-
+    border-width: 1px;
+    border-style: solid;
 }
 
 .variants.big .text {
-    min-height: 220px
+    min-height: 220px;
 }
 
 .variants.middle .text {
@@ -69,10 +70,12 @@ body * {
 
 .variants .good .text {
     background: #e1f1f1;
+    border-color: #00a094;
 }
 
 .variants .bad .text {
     background: #f5e5e3;
+    border-color: #b7274c;
 }
 
 .variants input:checked + .text {
